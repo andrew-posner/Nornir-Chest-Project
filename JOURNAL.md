@@ -8,7 +8,7 @@
 - This was stardance, and I was a noob, so my devlogs are super short, and I switched between working on lots of different aspects of project, so I might log 2 hours 40 minutes and work for 40 minutes on the main thing and go over it in devlog, but spend another 2 hours polishing up a bunch of other stuff.
 - I worked on this 3 months ago, I barely remember my workflow, I've tried to add a little more details, but pls be forgiving on awful devlogs.
 
-## June 29th: Worked on basic CAD on shell.
+## Worked on basic CAD on shell.
 
 Started building my 3d printable Nornir Chest from God Of War. Just basic cadding, adding details like bevels, electronic holes, and runes later. Only cadded base chest, haven't started on lid or like hinges yet.
 
@@ -16,7 +16,7 @@ Started building my 3d printable Nornir Chest from God Of War. Just basic caddin
 
 **Total time spent: 1h 25m**
 
-## June 30th - July 4th: 
+## Worked on dragon corners 
 
 Spent forever working on dragon corners, many revisions, restarted multiple times. Tried using cylinders, didn't work, tried using curves, kinda worked, eventually settled on a really low poly model because it prints tiny.
 
@@ -24,7 +24,7 @@ Spent forever working on dragon corners, many revisions, restarted multiple time
 
 **Total time spent: 8h 32m**
 
-## July 6th - 8th
+## Added hinges and engravings
 
 Added hinges and a gold engraving on the top of the lid. Looks great, moving on to head and leds for runes. Hinges print seperately and are inserted into pin holes, and are print in place, going to use 0.2mm nozzle because of how small they are. Gold engraving fits on the top and also is printed seperately.
 
@@ -32,7 +32,7 @@ Added hinges and a gold engraving on the top of the lid. Looks great, moving on 
 
 **Total time spent: 1h 10m **
 
-## July 9th - 12th 
+## Runes
 
 Added runes! Looks great. Going to be using WS2812B Led rings, and I’m going to 3d print a cover thing for it that will disperse the lighting as it only has 7 leds per ring. 3 different runes, inserted into 3 different holes in chest.
 
@@ -40,7 +40,7 @@ Added runes! Looks great. Going to be using WS2812B Led rings, and I’m going t
 
 **Total time spent: 2h 59m**
 
-## July 12th - 14th 
+## Made MG90 Locking mechanism
 
 It locks now! Will be using mg90 servos that turn 90 degrees, making the lid unable to open. Lid will have two holes on either sides with small covers that allow servo arm to fly over, but get stuck when lifted, because servo arm is in its way.
 
@@ -48,7 +48,7 @@ It locks now! Will be using mg90 servos that turn 90 degrees, making the lid una
 
 **Total time spent: 1h 47m**
  
-## July 15th - 17th 
+## New gold engraving
 
 Added a new gold engraving. It has kind of a loopy pattern, spent forever using curves to get it right, fits into holes in chest. Used multiple tutorials and I think I redid it maybe 4 times.
 
@@ -56,7 +56,7 @@ Added a new gold engraving. It has kind of a loopy pattern, spent forever using 
 
 **Total time spent: 1h 31m**
 
-## July 18th
+## Made boulder and then gave up.
 
 Spent some time making a boulder for the seals to sit on, but then I kind of gave up and realized it was ugly lol.
 
@@ -64,7 +64,7 @@ Spent some time making a boulder for the seals to sit on, but then I kind of gav
 
 **Total time spent: 2h 47m**
 
-## July 19th - 21st
+## Chest base
 
 The chest has a base now! The base is so big it has to split into fourths to fit on the printer bed 😂. It is ~700 grams. I also added indents in it that will fit a breadboard, battery pack, and wires. I’m going to be using a nano on the breadboard. I could just stuff all the electronics in the chest, but then i wouldnt be able to fir anything inside, so I’m just doing this. I also think it looks awesome and I need to add some of the puzzles that unlock the chest around it, so the base is perfect. Got the base off of makerworld - https://makerworld.com/en/models/2679972-rocky-base-plateau#profileId-2967898
 
@@ -72,7 +72,7 @@ The chest has a base now! The base is so big it has to split into fourths to fit
 
 **Total time spent: 4h 12m**
  
-## July 21st
+## Worked on brazier
 
 I’m adding a little brazier with a led rune that will turn off when activated, and send a signal to the chest to also turn off one of the lights. Once three runes are activated the chest’s servos will activate and it will be able to open. Almost done with brazier, need to add some more coal on the top.
 
@@ -80,7 +80,7 @@ I’m adding a little brazier with a led rune that will turn off when activated,
 
 **Total time spent: 2.16 hours**
  
-## July 22nd
+## Added reed switch
 
 Added reed switch to brazier, I downloaded a nice blades of chaos fridge magnet, that can be inserted into the top. So hopefully when the magnetic blade gets inserted the reed switch will activate and send a signal to the arduino.
 
@@ -88,7 +88,7 @@ Added reed switch to brazier, I downloaded a nice blades of chaos fridge magnet,
 
 **Total time spent: 52m**
  
-## July 23rd - 25th
+## CHose new base.
 
 I’m choosing to use a different base, it just looks cooler, and also the other base had all these random strings of internal vertices. Also worked a little on the spinning rune activator/totem.
 
@@ -96,7 +96,7 @@ I’m choosing to use a different base, it just looks cooler, and also the other
 
 **Total time spent: 3h 38m**
  
-## July 25th - 28th
+## Finished brazier and totem.
 
 Done with both brazier and spinning totem! On to rune rock and then wire paths and electronics.
 
@@ -104,7 +104,7 @@ Done with both brazier and spinning totem! On to rune rock and then wire paths a
 
 **Total time spent: 46m**
  
-## July 29th - August 4th
+## Finished everything.
 
 Done with everything! I decided to do the bell instead of rune rock because I realized it wasn’t actually a rock, it was a statue, and I don’t want to spend 2 hours sculpting it. Prepping it in bambu studio, almost ready to start printing! Attached photo of statue to show you what I mean.
 
@@ -112,7 +112,7 @@ Done with everything! I decided to do the bell instead of rune rock because I re
 
 **Total time spent: 8h 30m**
  
-## August 6th
+## test print.
 
 Printed base, supports are way to crazy and areas are too weak, tweaking and reprinting. Also starting to add some more work to the bambu studio portion of the project.
 
@@ -128,7 +128,7 @@ Almost done with Bambu Studio. Putting together files for a fully 3d printable m
 
 **Total time spent: 25m**
  
-## August 12th
+## Submitted for funding.
 
 I’m submitting this for funding! I am broke and cant pay for the electronics lol. I also printed out a few parts. It needs a little post prosessing but looks great!
 
@@ -136,7 +136,7 @@ I’m submitting this for funding! I am broke and cant pay for the electronics l
 
 **Total time spent: 17m**
  
-## August 25th
+## Printed everything.
 
 Finally printed all of the print only parts! Looks awesome. Still waiting on electronics.
 
@@ -144,7 +144,7 @@ Finally printed all of the print only parts! Looks awesome. Still waiting on ele
 
 **Total time spent: 19m**
  
-## August 27th
+## Posted on makerworld
 
 Worked on firmware and updated BOM. also posted on makerworld! https://makerworld.com/en/models/3198743-god-of-war-nornir-chest-hinged-lid-no-ams#profileId-3619555
 
@@ -152,7 +152,7 @@ Worked on firmware and updated BOM. also posted on makerworld! https://makerworl
 
 **Total time spent: 1h 4m**
  
-## September 10th
+## New lamp version.
 
 Made a cheap lamp version using a kit from bambu labs, posted on makerworld. https://makerworld.com/en/models/3271930-god-of-war-nornir-chest-lamp-edition#profileId-3710162
 
@@ -160,7 +160,7 @@ Made a cheap lamp version using a kit from bambu labs, posted on makerworld. htt
 
 **Total time spent: 1h 16m**
 
-## September 14th
+## Parts came
 
 All parts came! Spent 2 minutes pulling in package i guess lol. Gonna start working on final build.
 
@@ -168,7 +168,7 @@ All parts came! Spent 2 minutes pulling in package i guess lol. Gonna start work
 
 **Total time spent: 2m**
 
-## September 16th
+## More printing
 
 Printed and removed all supports of 1/4 of the base. My stupid ass didn't record the first 5 minutes of support removal, and in the three visible frames I'm holding the base out of the cameras line of sight.
 
@@ -176,7 +176,7 @@ Printed and removed all supports of 1/4 of the base. My stupid ass didn't record
 
 **Total time spent: 10m**
 
-## September 21st
+## Started working on arduino
 
 Soldered on pin headers to the nano, dupont connectors to the battery holder, and looped all the leds.
 
@@ -184,7 +184,7 @@ Soldered on pin headers to the nano, dupont connectors to the battery holder, an
 
 **Total time spent: 1h 2m**
 
-## September 22nd
+## Chest leds
 
 Connected LEDs to nano, they work great. I'm really happy with how they came out. I'm going to work out the firmware to make it glow/ flicker blue. Also temporarily duct taped everything. I have settled on soldering everything together after I am out of the prototyping phase.
 
@@ -192,30 +192,194 @@ Connected LEDs to nano, they work great. I'm really happy with how they came out
 
 **Total time spent: 30 m**
 
-## September 25th
+## Servos dont fit in lid.
 
 Tested servos, current lid locking system is really bad, servo arm doesnt even fit in the space I made for it. Changed lid to have an extruding handle thing that will be blocked by servo arms. 
 
-**Total time spent: 1 hour**
-
-## September 25th
-
-Tested servos, current lid locking system is really bad, servo arm doesnt even fit in the space I made for it. Changed lid to have an extruding handle thing that will be blocked by servo arms. 
-
-<img width="614" height="484" alt="Screenshot 2026-09-26 at 6 01 42 PM" src="https://github.com/user-attachments/assets/f4163600-520f-4ab0-868a-dc0a20e1d4b1" />
+<img width="1110" height="790" alt="Screenshot 2026-10-04 at 5 19 23 PM" src="https://github.com/user-attachments/assets/ca4445d0-8ea1-4f19-9aec-b31eff6d15b2" />
 
 **Total time spent: 1 hour**
 
-## September 26th
+## Fixed servos, work good.
 
 Printed out new parts, replaced them, and tested. I had a pretty easy time printing everything, took out old servo holders and added new ones. The lid did kind of lock, but I was able to lift the lid up maybe two centimeters. Decreased the tolerance in the lid handle things by wrapping duct tape around it. Added switch to open and close servos and uploaded new testing code. It works! I'm actually really happy with how it came out! Will start testing brazier tommorow.
 
 <img width="360" height="552" alt="Pi7_GIF_CMP-ezgif com-crop" src="https://github.com/user-attachments/assets/431647f8-a3a1-4614-984c-190e568b3d53" />
 
-**Total time spent: 1 hour**
+**Total time spent: 2 hour**
 
-## September 27th
+## Totem pole leds
 
 Spent like 3 hours trying to solder wire to a tiny led strip. Accidentally bought 2.5mm instead of 5mm. I wasted like 30 mm of wire. The strip has an adhesive on the bottom that prevents solder to sticking on pads so I ended up just covering the led strip with burnt glue and solder without actually making any connections. The diode leds i ordered dont work as well, they all came with messed up internals, I can see the metal parts inside are way too close togther.
 
-**Total time spent: 3 hour**
+<img width="189" height="151" alt="Screenshot 2026-10-03 at 9 10 33 AM" src="https://github.com/user-attachments/assets/b5b5ec1f-2fb8-4456-a7cd-89e8a13928f5" />
+
+**Total time spent: 3 hours**
+
+## More work on totem pole leds
+
+I took a portion of a bigger led strip from school because the one I own is way too hard to solder. I accidentally soldered the wires onto the DOUT side, and after 40 minutes of playing with arduino ide and switching between micrcontrollers, I finally decided to check the soldering a little closer, and realized I had soldered it on wrong. So I soldered it on correctly, and tested the leds, and they worked. Then I stuffed it into the pole and broke it accidentally. And then I decided to just gave up for the day for some reason.
+
+<img width="608" height="805" alt="Screenshot 2026-10-03 at 9 11 07 AM" src="https://github.com/user-attachments/assets/fbea3bd4-a1b1-42ad-b04d-493e48b5ea0d" />
+
+**Total time spent: 2 hours**
+
+## Finally got leds to work.
+
+Soldered everything corectly this time, took maybe 30 minutes including setup and putting everything away. Made basic firmware to test if the rotary encoders work, and they do, it looks great. Spent forever trying to protect the wires against touching using tape, and connecting the rotary encoder to the breadboard, but it works! Leds flash red when not correct rune, leds flash white when correct. For some reason the leds stopped working and then after 30 minutes of panicking hey started working again, so I guess they work?
+
+<img width="676" height="477" alt="Screenshot 2026-10-04 at 4 39 45 PM" src="https://github.com/user-attachments/assets/ff70b204-6e6c-4692-a9dc-771453244896" />
+
+**Total time spent: 4 hours**
+
+## Uh, i want to keep my forge streak.
+
+I'm logging the five minutes it took to setup my printer and send a print because I want to keep my forge streak. Yeah.
+
+<img width="1462" height="918" alt="Screenshot 2026-10-05 at 12 59 30 PM" src="https://github.com/user-attachments/assets/1948eb10-bc96-46c4-91d4-b3f301a21454" />
+
+
+**Total time spent: 5 minutes**
+
+## Broke the last 3 led rings while soldering.
+
+I spent over three hours trying to solder the wires pointing up horizontally, and ended up breaking every LED. The first leds pad fell off, the second ones' whole vcc trace and pad fell off, and the last led looked soldered ok, but when I plugged it into the nano it started smoking for some reason, so I took it out, and now the nano doesn't work. Luckily I bought a second one, so I had to replace it and solder all the pins on. I'm going to try to fix the last led, but worst case scenario I'll just use a cut off portion from a led strip.
+
+<img width="610" height="788" alt="Screenshot 2026-11-07 at 8 03 13 PM" src="https://github.com/user-attachments/assets/897b4922-552c-490c-ad88-6db9a3d7ee4d" />
+
+**Total time spent: 4 hours**
+
+## Soldered the reed switch to some dupont pins.
+
+Luckily soldering the reed switch wasn't too hard, tested with a led and it works great. Now I'm going to stop ignoring soldering the leds and do it.
+
+<img width="608" height="811" alt="Screenshot 2026-10-08 at 8 25 48 PM" src="https://github.com/user-attachments/assets/7a849683-9187-47f4-b821-1148fe937c91" />
+
+**Total time spent: 40 minutes**
+
+## Got the last LED ring to work somehow
+
+I resoldered everything, and now it works! Tested it, moving on to code and implementation.
+
+<img width="597" height="802" alt="Screenshot 2026-10-08 at 8 24 05 PM" src="https://github.com/user-attachments/assets/6826b098-47d7-40cb-84df-da7479dcdb2c" />
+
+**Total time spent: 1 hour**
+
+## Hooked up leds and reed switch to nano, it works!
+
+Connected everything to dupont pins and then the nano, and coded the reed switch part, it works! Blinks like the totem when activated. I am experiencing a problem where the rotary encoder automatically thinks it is on F when starting, going to fix.
+
+<img width="224" height="375" alt="Screenshot 2026-10-09 at 7 35 35 PM" src="https://github.com/user-attachments/assets/e6dec8cc-73b1-477e-ac70-e6199ba4f53a" />
+
+**Total time spent: 1 hour 20 minutes**
+
+## Made a calibration system for totem pole.
+ 
+I basically made a system that saves the poles position to EEPROM before it is turned off, so when it is turned on it doesn't assume it is on F, and I made a calibration system where if the pole button is pressed down for 3 seconds and released, it will set the exact position as F, so it will know where C and E are. I also added a reset button so I don't have to navigate through the mess of wires and toggle the battery switch.
+
+<img width="686" height="771" alt="Screenshot 2026-11-07 at 7 49 36 PM" src="https://github.com/user-attachments/assets/bc4feec1-48d7-4ba6-816b-09292a14d286" />
+
+**Total time spent: 2 hours**
+
+## Soldered bell LEDs and Piezo disk.
+
+I spent maybe 2 hours soldering LEDs. I went through 3 LEDs ending up with the copper pad falling off every time, then gave up and used some random LED module I found in a bin. It was much easier to solder and it went pretty smooth. Then I just stripped the wires of the piezo disk and soldered it to some longer wires, and then put Dupont pins on the ends of every wire.
+I tested the LED, and it works, I'm pretty satisfied with how they work, I'll move on to testing the piezo disk and putting them in the stand.
+
+<img width="576" height="676" alt="Screenshot 2026-11-07 at 7 50 20 PM" src="https://github.com/user-attachments/assets/b0ec3d36-5163-4ebc-b50b-dfb4f24d5246" />
+
+**Total time spent: 3 hours**
+
+## Adjusted sizes and tolerances of bell. 
+
+I just realized the bell and stand are a little too small to fit the wires and led, so I adjusted the size of everything to fit it all. Reprinted everything and moving on to fitiing everything inside, and then code.
+
+<img width="1470" height="954" alt="Screenshot 2026-10-27 at 3 08 23 PM" src="https://github.com/user-attachments/assets/1f6cba55-6cd5-4af3-838b-5b04cd59cf1b" />
+
+**Total time spent: 30 minutes**
+
+## Replaced servos
+
+For some reason the servos don't work, so I replaced them and retested them. New ones work fine, but the servo arms dont fit on them, so I had to cad and print new ones.
+
+<img width="614" height="806" alt="Screenshot 2026-11-07 at 7 50 41 PM" src="https://github.com/user-attachments/assets/60337d05-bd05-4d95-b44c-a2e4420e4ceb" />
+
+**Total time spent: 40 minutes**
+
+## Glued bell parts together.
+
+Stuffed wires into the frame and then put some globs of hot glue inside it. Now it reliably sticks together without tape. 
+
+<img width="369" height="421" alt="Screenshot 2026-11-07 at 7 51 15 PM" src="https://github.com/user-attachments/assets/24e03646-9dab-47da-bb42-9ef85ec94598" />
+
+**Total time spent: 20 minutes**
+
+## LEDs flicker and nano keeps on turning off and on.
+
+The LEDs keep on flickering for some reason. I tried rewiring everything, but it still doesn't work. I resoldered a bunch of wires, and it still doesn't work. I took out everything except for the leds, but they still flicker. I changed code to make them only glow blue, and glow lighter blue, but they still flicker. I'm honestly too tired to fix it, and they still glow fine otherwise, so I'm going to leave it as is for now.
+
+<img width="609" height="812" alt="Screenshot 2026-11-07 at 7 51 59 PM" src="https://github.com/user-attachments/assets/d08961dc-ba01-4da4-8ec8-3915f3546a5d" />
+
+**Total time spent: 1 hour**
+
+## Servos don't work anymore.
+
+So the servos just make grinding sounds when they are suppssed to move, and they just dont move at all. I replaced them again, but they still don't work. I gave up on working on them, I'll probably fix tommorow.
+
+<img width="610" height="812" alt="Screenshot 2026-11-07 at 7 52 21 PM" src="https://github.com/user-attachments/assets/b381bddb-0f13-4720-aa6f-e32060a64064" />
+
+**Total time spent: 15 minutes**
+
+## Bell LED not working.
+
+The bell LED also stopped working. I took the full thing apart, checked soldering, and then plugged it in and took it out multiple times. It just doesn't work.
+
+<img width="584" height="690" alt="Screenshot 2026-11-07 at 7 53 42 PM" src="https://github.com/user-attachments/assets/0c1a895d-1343-4fc2-9773-f10a7365689f" />
+
+**Total time spent: 40 minutes**
+
+## Broke brazier led ring.
+
+I tried fixing the bell again today. After maybe 20 minutes of messing around with it, I accidentally switched out the some wires I think, and the led ring started sizzling and then it turned off. I took off the tape and looked at it, and it looks like the gnd pad fell off and it was touching 5v, so they shorted and the whole thing broke. I don't have any replacements.
+
+<img width="423" height="535" alt="Screenshot 2026-11-07 at 7 55 28 PM" src="https://github.com/user-attachments/assets/a3d9cbdb-5db9-4f15-bbc9-f3d273fff2f0" />
+
+**Total time spent: 35 minutes**
+
+## Rotary encoder tracking is weird.
+
+I tested the chest sensors, and the reed switch and piezo disk work fine, but the rotary encoders' tracking behaves pretty weird. I tested turning F to C, and it said it took 19 increments. Then I tried again, and it told me it took 15 increments, and then 22 increments, and then 15 increments again. It is pretty weird, and I'm really confused on why it is behaving like this.
+
+<img width="413" height="536" alt="Screenshot 2026-11-07 at 7 56 54 PM" src="https://github.com/user-attachments/assets/fc12cc3b-71cf-4f83-bdbd-31afd3a604b8" />
+
+**Total time spent: 20 minutes**
+
+## Broke piezo disk.
+
+When i was taking the led out of the bell to double check the soldering on the pads, it was a pretty tight fit, and as I pulled it out it also pulled out one of the piezo disk wires. It completely peeled off the pad, so I had to replace it. The new piezo disk isn't seated the same, and how it senses the bell for some reason goes into the, and then stays there. It will jump up to 500 from 3 when struck, go down 5, and then when struck again go up to 2000, and then go down to -400 really fast, and then jump up to 300. I'm really confused, and pretty frustrated with how everything is breaking. I coded a cheap fix that just measures large jumps, but it isn't the same, and it will now activate when the chest is turned on, and not activate when I am hitting it multiple times.
+
+<img width="464" height="595" alt="Screenshot 2026-11-07 at 7 58 38 PM" src="https://github.com/user-attachments/assets/93a11f7d-6fc5-445e-8fb2-592fe39073f9" />
+
+**Total time spent: 1 hour 20 minutes**
+
+## Nano won't connect to computer.
+
+Now, with all the other problems going on, the arduino won't connect to the computer. It still turns on, and the led glows, but it doesn't do anything else, and when I try to upload code the computer doesn't sense it. I tried multiple usbc wires, and it still doesn't work.
+
+<img width="587" height="689" alt="Screenshot 2026-11-07 at 7 59 04 PM" src="https://github.com/user-attachments/assets/fc4e72ea-33a1-4f1d-be00-cc62f532c7fd" />
+
+**Total time spent: 30 minutes**
+
+## Submitting project as lamp and replica.
+
+I'm submitting the project as a lamp and replica instead of the fully working puzzle chest I originally planned. I got the different parts working at different points, but I haven't been able to get everything working reliably together. The servos stopped moving, multiple LEDs broke, the rotary encoder isn't tracking consistently, the bell sensor is unreliable, and now the Nano won't connect to my computer, so I can't even upload more fixes. Many of the parts are fried (LEDs, nano) and I don't even have enough points to get mroe funding for the project, so I'm pretty much broke.
+
+I'm still really happy with how the chest itself came out. I finished the model, printed and assembled it, and published both the print-only version and the lamp version on MakerWorld. It isn't the interactive chest I wanted, but I don't want to pretend the electronics work when they don't, or keep logging time replacing parts without actually making progress. I learned a lot about CAD, designing parts that actually fit together, soldering, and writing firmware throughout this project. I also spent way more time debugging than I expected lol. For now I'm calling the puzzle version unfinished and submitting the lamp and replica versions as what I was able to finish.
+
+<img width="1470" height="799" alt="Screenshot 2026-11-07 at 8 00 22 PM" src="https://github.com/user-attachments/assets/0eb4781d-71a1-43a6-bcfb-2e26ba1e13c3" />
+
+**Total time spent: 20 minutes**
+
+
+
+
