@@ -36,6 +36,35 @@ The rocky base is a 3d printed shell for the chest chest's electronics. I made r
 - 1× single LED – illuminates the rune on the bell
 - 4× AA battery pack – powers all LEDs and servos
 
+## The Finished Project
+
+The interactive electronics never worked reliably, so I didn't finish the full puzzle. The final project is a lamp and a print-only replica of the chest. Here's how each part ended up.
+
+**Brazier** - The brazier is printed in gold, black, grey, and blue/transparent PLA. The coals are printed with low infill and fewer walls so light can shine through. I planned to use two 7 pixel WS2812B rings and a reed switch to detect the magnetic Blades of Chaos, but I accidentally broke the second LED while soldering, so I ended up only using the LED for the rune. After connecting all LEDs, it flickered like the rest when turned on, but for a short period it worked as intended. The reed switch actually did work great, and still works, which made the brazier the most reliable seal.
+
+**Totem Pole** - The totem pole is printed in PLA wood and blue/transparent PLA. The pole connects to a hollow cylinder with three different runes. I planned to track the rotation with a rotary encoder and light each rune with three LEDs. The encoder readings worked originally, but after using it for a few days the readings started being unstable, with an offset and detents that didn't match. I eventually gave up on the rotary encoder, but it worked for a little bit.
+
+**Bell** - The bell is printed in PLA wood, gold, and blue/transparent PLA. I planned to have a piezo disk detect vibration when the bell is rung and light the rune with a dedicated LED. The piezo sensing actually did end up working fine, but after breaking the first one when putting in the led, I had to replace it with another piezo disk from the bag. It's vibration detection was not accurate, and it for some reason gave me negative readings often. I ended up switching the piezo disk 2 times, but they all gave weird readings after the first one.
+The Chest
+
+**The Chest** The chest is hinged. It's printed in multiple parts to avoid changes between the gold, black, grey, and blue/transparent PLA. Any parts that would otherwise be glued are connected with pins. I planned three 7 pixel WS2812B rings and a servo to light the runes and lock the lid. The LEDs flickered or failed and the servo wouldn't move, so the final chest is a lamp and a print-only replica.
+
+**The Base** The rocky base is ended up functioning the same as I planned.
+
+**Printing** The chest uses 5 filaments, mostly Sunlu and Bambu Labs. I printed some parts with a 0.2 mm nozzle, such as the hinges, viking head, and runes, to preserve small details and improve accuracy. I also changed the speed and infill on some parts. For example, the runes are printed in 100% infill grey so light only comes through the rune hole and isn't visible through the plastic. I always used glue, and I used a cheap smooth PEI plate I found on Amazon.
+
+## What Didn't Work
+
+Rotary encoder: unstable readings.
+
+LEDs: flickering and failures.
+
+Servos: wouldn't move.
+
+Piezo disk: unreliable sensing.
+
+Arduino Nano: connection failure.
+
 ## Credits
 
 - [Blades of Chaos fridge magnet](https://makerworld.com/en/models/3068479-blades-of-chaos-fridge-magnet#profileId-3454054) — Used as the magnetic Blades of Chaos inserted into the brazier. It is meant to be a fridge magnet.
