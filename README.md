@@ -83,12 +83,7 @@ This is everything I used for the final build, including parts that later broke.
 - Added a fully 3D-printable version.
 - Added a lamp version.
 - Firmware will need updating to fit the physical chest if I rebuild the electronics.
-
-## Get .blend File Here
-(I'm also a noob to GitHub lol. I can't figure out how to upload large files.)
-
-https://drive.google.com/file/d/1p0lWug-2twfeMgqFWuvS9LOxBlz-mlpI/view?usp=sharing
-
+- 
 ## Updated BOM
 
 <img width="1066" height="472" alt="Screenshot 2026-08-14 at 5 10 53 PM" src="https://github.com/user-attachments/assets/daeb57f7-734c-46ce-97fb-86468f2cc218" />
