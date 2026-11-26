@@ -3,6 +3,9 @@
 
 <img width="800" alt="Whole Project" src="https://github.com/user-attachments/assets/a11c25b0-e23d-434e-84f5-f1ce79681e36" />
 <img width="800" alt="Chest Close Up" src="https://github.com/user-attachments/assets/bd3d7342-5fbf-4ec0-8018-887896c02c1a" />
+<img width="800" alt="Full LEDs Blue" src="https://github.com/user-attachments/assets/ff05a855-5fed-4f55-a47b-937b581707d2" />
+
+
 
 
 
