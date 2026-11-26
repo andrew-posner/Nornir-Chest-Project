@@ -5,35 +5,26 @@
 <img width="800" alt="Chest Close Up" src="https://github.com/user-attachments/assets/bd3d7342-5fbf-4ec0-8018-887896c02c1a" />
 <img width="800" alt="Full LEDs Blue" src="https://github.com/user-attachments/assets/ff05a855-5fed-4f55-a47b-937b581707d2" />
 
+  This is a 3D printable replica model of the Nornir Chest from God of War Ragnarök. My goal is to use a variety of electronics to simulate the way the chest works in the game. In God of War, Nornir Chests are puzzles found throughout the map that use their environments to hide and disguise the activators, or seals. There are 4 types of seals: totem poles, braziers, bells, and viking statues. They each have different activation methods, and each is tied to a different rune on the chest. When a seal is activated, the rune on it flashes and disappears, and the corresponding rune on the chest does the same. I ran into a lot of problems getting the interactive electronics to work reliably, including unstable encoder readings, flickering LEDs, and servos that wouldn't move, so the full puzzle isn't finished yet. For now, I'm submitting the project as a lamp and a print-only replica of the chest due to lack of forge points for funding, and lack of materials that are necessary for the finished project.
 
 
+## My Original Goals
 
+**Brazier** - I planned to use two 7 pixel WS2812B rings and a reed switch. The parts are printed in gold, black, grey, and blue/transparent PLA. The reed switch was supposed to detect the magnetic Blades of Chaos being inserted into the coals. The LED rings would act as a rune and as embers in the fire. The coals are printed with low infill and fewer walls so light can shine through.
 
-This is a 3D printable replica model of the Nornir Chest from God of War Ragnarök. My final version uses a variety of electronics to simulate the way the chest works in the game. In God Of War, Nornir Chests are puzzles found throughout the map that use their environments to hide and disguise the activators, or seals. There are 4 types of seals, totem poles, braziers, bells, and viking statues. They each have different activation methods, and each are tied to different runes on the chest. When a seal is activated, the rune on it flashes and disappears, and the corrisponding rune on the chest does the same. I currently have two versions of the chest, a fully printable version, and a fully electronic version with seals.
+**Totem Pole** -  I planned to use 3 diode LEDs and a rotary encoder. It's printed in PLA wood and blue/transparent PLA. The encoder was meant to track the rotation of the pole. The pole connects to a hollow cylinder with three different runes. As it rotates, three LEDs on the side of the pole would light the correct rune.
 
-## The Seals
+**Bell** -  I planned to use 1 diode LED and a piezo disk. It's printed in PLA wood, gold, and blue/transparent PLA. The piezo disk was supposed to detect the vibration when the bell is rung, and a dedicated LED would light the rune.
 
-**Brazier** - two 7 pixel WS2812B rings, reed switch. Printed gold, black, grey, and blue/transparent PLA. Uses the reed switch to detect the magnetic Blades of Chaos inserted into the coals, and the LED rings are used as a rune and embers in the fire. The coals are printed with low infill and fewer walls so light can shine through. 
+**The Chest**
 
-**Totem Pole** - 3 dumb LEDs, rotary encoder. Printed in PLA wood, and blue/transparent PLA. The rotary encoder tracks the rotation of the pole. The pole is connected to a hollow cylinder with three different runes. As it rotates, three LEDs on the side of the pole light the correct rune.
+The plan was for the chest to use three 7 pixel WS2812B rings and a servo. The servo would turn 90 degrees to lock and unlock the chest, and the LEDs would light the runes. The chest is hinged. It's printed in multiple parts to avoid changes between the gold, black, grey, and blue/transparent PLA. Any parts that would otherwise be glued are connected with pins.
 
-**Bell** - 1 dumb LED, piezo switch. Printed in PLA wood, gold, and blue/transperent PLA. The piezo disk detects vibration when the bell is rung. A dedicated LED lights the rune.
+**The Base**
 
-## The Chest
+The rocky base is a 3d printed shell for the chest chest's electronics. I made room for a breadboard for beginners (like me lol), an Arduino Nano, and a battery pack. All wires go through holes, and the holes have some supports in them when you pull them out. I suggest using a paper clip to push all of the supports out. It shouldn't be too hard.
 
-The chest uses three 7 pixel WS2812B rings and a servo. The servos turn 90 degrees to lock/unlock the chest, and the LEDs cover the runes. It is hinged, and is printed in multiple parts to avoid changes between the gold, black, grey, and blue/transparent PLA. Any parts that would otherwise be glued are connected via pins.
-
-## The Base
-
-The rocky base is not only a cool base for the chest, it acts as a hub for the electronics. I made room for a breadboard for beginners (like me lol), an Arduino Nano, and a battery pack. All wires go through holes, and they will have some supports in them when you pull them out. I suggest using a paper clip to stick it in and push all of the supports out, it shouldn't be too hard.
-
-## Printing
-
-The chest uses 5 filaments, mostly Sunlu and Bambu Labs. I printed some parts with a 0.2 mm nozzle, such as the hinges, viking head, runes, etc, to preserve small details and improve the accuracy of the prints. I also changed the speed and infill on some parts, for example, the runes are printed in 100% infill grey to let light only through the rune hole, and not be visible through the plastic. I always used glue, and I used a cheap smooth PEI plate I found on amazon.
-
-<img width="1033" height="736" alt="643023963-7ee1bbd4-a273-487c-8561-48d0f8c64b1f" src="https://github.com/user-attachments/assets/9b3736a6-3aa7-4716-aa32-bee3e0b0c26f" />
-
-### All Components 
+**Planned Components** 
 
 - Arduino Nano (powered via USB-C)
 - 4× WS2812B LED rings (7 LEDs each) – one in each chest rune slot, and 2 in brazier
