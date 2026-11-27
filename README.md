@@ -71,6 +71,21 @@ This is everything I used for the final build, including parts that later broke.
 - Hot glue
 - Printing supplies: PLA in gold, black, grey, and blue/transparent, plus PLA wood, a 0.2 mm nozzle, glue, and a smooth PEI plate
 
+# Assembly Guide
+
+1. Print all the parts in the filaments listed in the Printing section, and remove the supports from the base. Push the supports out of the wire holes with a paper clip. The base prints in four pieces, so glue them together first.
+2. Insert the hinges into the pin holes on the chest and lid, then fit the gold engravings into their slots. Connect any other parts with the printed pins instead of glue.
+3. Press the three runes into their holes in the chest. Place a WS2812B ring behind each rune.
+4. Mount the two MG90 servos in their holders on the chest. Attach the printed servo arms so they block the extruded handles on the lid when locked.
+5. Assemble the seals. Put the reed switch in the brazier under the coals and the rotary encoder in its HW-040 enclosure inside the totem pole. Put the LED strip piece in the totem pole's side slot. Put the LED and piezo disk in the bell and stand, then hot glue them so they hold without tape.
+6. Solder dupont pins onto every wire so everything plugs together without more soldering. Solder pin headers onto the Nano as well.
+7. Place the Arduino Nano on the breadboard in the base. Connect the LEDs, servos, encoder, reed switch, and piezo disk to the Nano, and power it from the 4×AA battery pack.
+8. Feed all the wires through the holes in the base, then set the chest, brazier, totem pole, and bell into the indents on the base.
+9. Upload the firmware. Hold the totem button for 3 seconds to set the pole's current position as F, and use the reset button instead of reaching through the wires.
+10. For the lamp version, put the chest on the Bambu Lab lamp kit instead. For the print-only replica, skip the electronics and just assemble the printed parts.
+
+ **Note:** Steps 4 and 7 describe the original design. In my final build the electronics never worked reliably together.
+
 ## Credits
 
 - [Blades of Chaos fridge magnet](https://makerworld.com/en/models/3068479-blades-of-chaos-fridge-magnet#profileId-3454054) — Used as the magnetic Blades of Chaos inserted into the brazier. It is meant to be a fridge magnet.
