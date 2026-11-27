@@ -47,7 +47,7 @@ Everything is printed and assembled. The electronics were built and tested piece
 
 ## Final Parts List
 
-This is everything I used for the final build, including parts that later broke. Quantities marked ⚠️ are my best guess.
+This is everything I used for the final build, including parts that later broke.
 
 **Electronics**
 - Arduino Nano ×2 (the first burned out, and the replacement stopped connecting; pin headers soldered on)
@@ -57,17 +57,16 @@ This is everything I used for the final build, including parts that later broke.
 - MG90 servos ×2 (replaced several times)
 - HW-040 rotary encoder module
 - Reed switch
-- Piezo disk ⚠️ (3 used in total)
-- Push buttons: one for totem calibration and one for reset ⚠️
-- Switch for opening and closing the servos in testing ⚠️
-- 4× AA battery holder with switch ⚠️
+- Piezo disk (3 used in total)
+- Switch for opening and closing the servos in testing
+- 4× AA battery holder with switch
 - Breadboard
 - Dupont wires and connectors
 - Solder and tape
 
 **Other**
 - Blades of Chaos fridge magnet (3D printed)
-- Lamp kit from Bambu Lab (lamp version) ⚠️
+- Lamp kit from Bambu Lab (lamp version)
 - Hot glue
 - Printing supplies: PLA in gold, black, grey, and blue/transparent, plus PLA wood, a 0.2 mm nozzle, glue, and a smooth PEI plate
 
